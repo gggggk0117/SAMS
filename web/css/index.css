@@ -1,0 +1,205 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	display: block;
+}
+img{
+	display: block;
+}
+body{
+	background-color: #F4F4F4;
+}
+
+.top{
+
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	box-shadow: 2px 3px 10px #ccc;
+}
+
+
+.logo{
+	margin-left: 40px;
+	margin-top:12px; 
+	width: 236px;
+	height: 35px;
+	float: left;
+}
+
+
+.nav{
+	float: left;
+	margin-left: 150px;
+}
+.nav ul li{
+	float: left;
+	list-style: none;
+}
+.nav ul li a{
+	height: 60px;
+	width: 100px;
+	text-align: center;
+	color: #999999;
+	font-weight:bold;
+	/*background-color: red;*/
+	line-height: 60px;
+	text-decoration: none;
+}
+.nav ul li a:hover{
+	color: #666;
+}
+
+/*菜单栏设置*/
+.gr{
+	float: right;
+	width: 50px;
+	height: 50px;
+	margin-top:5px;
+	margin-right: 20px;
+}
+.grxx{
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	border-radius: 60px;
+	box-shadow: 1px 1px 5px #ccc;
+}
+.grxx:hover{
+	opacity: 0.5;
+}
+.util{
+	float: right;
+	margin-right: 15px;
+}
+.util div{
+	width: 60px;
+	height: 60px;
+	float: left;
+	 
+	
+}
+.util div a img{
+	margin:  12px auto;
+}
+.sz:hover{
+	background: url(../images/szb.png);
+}
+.xx:hover{
+	background: url(../images/咨询2.png);
+}
+.tc:hover{
+	background:url(../images/退出2.png);
+}
+
+.button{
+	position: absolute;
+	left: 0px;
+	top: 70px;
+	bottom: 0px;
+	right: 0px;
+	background-color: #F4F4F4;
+}
+
+.button div{
+	width: 364px;
+	height: 500px;
+	margin-left: 7%;
+	margin-top: 8%;
+	background-color: #fff;
+	float: left;
+	box-shadow: 2px 3px 10px #ccc;
+}
+
+.but1 img{
+	margin: 80px auto;
+	margin-bottom: 0px; 
+	width: 100px;
+	height: 100px;
+	/*border:solid 1px #ccc;*/
+	box-shadow: 1px 1px 5px #ccc;
+	border-radius:100px;
+}
+
+.but1 h3{
+	margin: 20px 0px 10px 110px;
+	color: #2daef1;
+}
+.but1 h3 span{
+	color: #b3b3b3;	
+}
+.but1 h4{
+	margin: 20px 0px 10px 110px;
+	color: #2daef1;
+}
+.but1 h4 span{
+	color: #b3b3b3;	
+}
+.but1 textarea{
+	margin: 20px 0px 10px 30px;
+	width: 300px;
+	height: 120px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: inherit;
+    line-height: 26px;
+    background: #F6F6F6;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+    transition: background 200ms;
+    resize: none;
+    color: #ccc;
+}
+.but1 textarea:focus{
+	background-color: #fff;
+	color: #000;
+}
+
+.but2 h1{
+	width: 200px;
+	margin: 50px auto 20px auto;
+	color: #2daef1;
+}
+.but2 textarea{
+	margin: 10px 0px 10px 32px;
+	width: 300px;
+	height: 330px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: inherit;
+    line-height: 26px;
+    background: #F6F6F6;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+    transition: background 200ms;
+    resize: none;
+    
+}
+.but3 h1{
+	width: 200px;
+	margin: 50px auto 20px auto;
+	color: #2daef1;
+}
+.but3 textarea{
+	margin: 10px 0px 10px 32px;
+	width: 300px;
+	height: 330px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: inherit;
+    line-height: 26px;
+    background: #F6F6F6;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+    transition: background 200ms;
+    resize: none;
+    
+}

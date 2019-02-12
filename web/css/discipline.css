@@ -1,0 +1,265 @@
+img{
+    display: block;
+}
+a{display: block;text-decoration: none;}
+
+*{margin: 0px;
+    padding: 0px;}
+
+.bg{background: #f6f6f6;position: absolute;
+    top: 0px;right: 2px;bottom: 0px;left: 0px;}
+
+
+.top{
+
+    /*width: 100%;*/
+    position: absolute;
+    left: 0px;right: 0px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 2px 3px 10px #ccc;
+}
+
+
+.logo{
+    margin-left: 40px;
+    margin-top:12px;
+    width: 236px;
+    height: 35px;
+    float: left;
+}
+
+
+
+.nav{
+    float: left;
+    margin-left: 150px;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+}
+.nav ul li a{
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    color: #999999;
+    font-weight:bold;
+    /*background-color: red;*/
+    line-height: 60px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #666;
+}
+
+/*菜单栏设置*/
+.gr{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-top:5px;
+    margin-right: 20px;
+}
+.grxx{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    border-radius: 60px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.grxx:hover{
+    opacity: 0.5;
+}
+.util{
+    float: right;
+    margin-right: 15px;
+}
+.util div{
+    width: 60px;
+    height: 60px;
+    float: left;
+
+
+}
+.util div a img{
+    margin:  12px auto;
+}
+.sz:hover{
+    background: url(../images/szb.png);
+}
+.xx:hover{
+    background: url(../images/咨询2.png);
+}
+.tc:hover{
+    background:url(../images/退出2.png);
+}
+
+.left{background: #fff;position: absolute;width: 350px;
+    top: 70px;bottom: 0px;left: 0px;
+    box-shadow: 2px 3px 10px #ccc;}
+.left_im{position: absolute;
+    top: 20px;bottom: 20px;left: 20px;right: 20px;
+}
+.left_im form .id_h5{color: #ccc; position: absolute;
+    left: 10px;}
+.left_im form #IN{width: 176px;height: 22px;position: absolute;
+    top:  20px;}
+.left_im form #sub{width: 86px;height: 22px;background: #169BD5;color: #fff;
+    border-style: none;position: absolute;
+    top:  20px; right: 30px;}
+
+.left_im form .name_h5{font-size:18px;position: absolute;
+    top: 93px;left: 20px;
+    font-weight: lighter;}
+.left_im form #name{width:160px;height:30px;position: absolute;
+    top: 90px;right: 60px;}
+
+.left_im form .sex_h5{font-size:18px;position: absolute;
+    top: 153px;left: 20px;
+    font-weight: lighter;}
+.left_im form #sex{width:160px;height:30px;position: absolute;
+    top: 150px;right: 60px;}
+
+.left_im form .num_h5{font-size:18px;position: absolute;
+    top: 203px;left: 20px;
+    font-weight: lighter;}
+.left_im form #num{width:160px;height:30px;position: absolute;
+    top: 200px;right: 60px;}
+
+.left_im form .phone_h5{font-size:18px;position: absolute;
+    top: 253px;left: 0px;
+    font-weight: lighter;}
+.left_im form #phone{width:160px;height:30px;position: absolute;
+    top: 250px;right: 60px;}
+
+.left_im form .col_h5{font-size:18px;position: absolute;
+    top: 303px;left: 20px;
+    font-weight: lighter;}
+.left_im form #college{width:160px;height:30px;position: absolute;
+    top: 300px;right: 60px;}
+
+.left_im form .members_h5{font-size:18px;position: absolute;
+    top: 403px;left: 20px;
+    font-weight: lighter;}
+.left_im form #members{width:160px;height:160px;position: absolute;
+    top: 400px;right: 60px;}
+
+
+.right{background: #fff;position: absolute;
+    top: 70px;bottom: 0px;left: 360px;right: 0px;
+    box-shadow: 0px 3px 10px #ccc;}
+
+.right .ri_top{position: absolute;
+    top:30px;left: 60px;height: 300px; right:10px;}
+
+.right .ri_top .Id_h5 {width:150px;font-size:18px;position: absolute;
+    top: 13px;left: 0px;
+    font-weight: lighter;}
+.right .ri_top #Id {width:160px;height:30px;position: absolute;
+    top: 10px;left: 105px;}
+
+.right .ri_top .write_h5{width:100px;font-size:18px;position: absolute;
+    top: 13px;left: 500px;
+    font-weight: lighter;}
+.right .ri_top #write {width:160px;height:30px;position: absolute;
+    top: 10px;left: 605px;}
+
+.right .ri_top .date_h5{width:100px;font-size:18px;position: absolute;
+    top: 93px;left: 40px;
+    font-weight: lighter;}
+.right .ri_top #date {width:160px;height:30px;position: absolute;
+    top: 90px;left: 105px;}
+
+
+.right .ri_top .YN_h5{ width:100px;font-size:18px;position: absolute;
+    top: 93px;left: 500px;
+    font-weight: lighter;}
+.right .ri_top .YN {width:160px;height:30px;position: absolute;
+    top: 90px;left: 605px;}
+
+.right .ri_top .reason_h5{width:100px;font-size:18px;position: absolute;
+    top: 173px;left: 10px;
+    font-weight: lighter;}
+.right .ri_top #reason {width:160px;height:30px;position: absolute;
+    top: 170px;left: 105px;}
+
+.right .ri_top .note_h5{ width:100px;font-size:18px;position: absolute;
+    top: 173px;left: 540px;
+    font-weight: lighter;}
+
+  #note {width:160px;height:100px;
+    position:  absolute;
+    top: 170px;left: 605px;
+    font-size: 14px;
+    font-weight: inherit;
+    line-height: 26px;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+    transition: background 200ms;
+    resize: none;
+
+  }
+
+.right .ri_top #submit {width: 86px;height: 30px;background: #169BD5;color: #fff;
+    border-style: none;position: absolute;
+    top:  250px; left: 250px;}
+
+.right .ri_top #reset {width: 86px;height: 30px;background: #169BD5;color: #fff;
+    border-style: none;position: absolute;
+    top:  250px; left: 400px;}
+
+.right .ri_bottom{ position: absolute;
+    top:333px;left: 20px;bottom: 10px; right:10px;}
+
+.ri_bottom  ul{list-style: none; display: block; width:1000px;height: 30px;
+                }
+.ri_bottom  ul li{ width:100px;height:30px;float: left;
+    text-align: center;line-height: 30px;
+    border: 1px solid #000000;
+    background: #f4f4f4;}
+
+.ri_bottom  ul .widening{width: 150px;}
+.ri_bottom  ul .widening1{width: 200px;}
+
+.ri_bottom  ul .widening1 textarea{
+    width:200px;height:30px;
+    font-size: 14px;
+    font-weight: inherit;
+    line-height: 26px;
+    background: #f4f4f4;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+    transition: background 200ms;
+    resize: none;
+}
+
+#all_id{width:160px;height:30px;position: absolute;
+    bottom:2px;left: 305px;}
+
+#all {width: 86px;height: 30px;background: #169BD5;color: #fff;
+    border-style: none;position: absolute;
+    bottom:2px; left: 400px;}
+
+.right .ri_bottom .previousPage{width:50px;height:20px;font-size: 13px;color: #B8E5F8;
+    position: absolute;bottom: 10px;left: 560px;color: black;}
+
+.right .ri_bottom .nextPage{width:50px;height:20px;font-size: 13px;color: #B8E5F8;
+    position: absolute;bottom: 10px;left: 630px;color: black;}
+
+.right .ri_bottom .current_h5{width:50px;height:20px;font-size: 13px;color: #B8E5F8;
+    position: absolute;bottom: 10px;left: 700px;color: black;}
+
+.right .ri_bottom #current{width:20px;height:20px;font-size: 13px;color: #B8E5F8;
+    position: absolute;bottom: 10px;left: 750px;color: black;}
+
+
+.right .ri_bottom .Sumcurrent_h5{width:50px;height:20px;font-size: 13px;color: #B8E5F8;
+    position: absolute;bottom: 10px;left: 800px;color: black;}
+
+.right .ri_bottom #Sumcurrent{width:20px;height:20px;font-size: 13px;color: #B8E5F8;
+    position: absolute;bottom: 10px;left: 850px;color: black;}

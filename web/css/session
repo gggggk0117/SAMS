@@ -1,0 +1,7 @@
+HttpSession httpSession =request.getSession();  //users类         users
+HttpSession session_t = request.getSession();   //教师session     teacher
+HttpSession session_s = request.getSession();   //学生session     students
+HttpSession session_a = request.getSession();   //公寓session     apartment
+
+
+

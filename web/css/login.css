@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #B8E5F8;
+}
+a {
+	text-decoration: none;
+}
+.w {
+	margin: 100px auto;
+	width: 425px;
+	height: 530px;
+	background-color: #fff; 
+}
+
+.header {
+	width: 425px;
+	height: 210px;
+	background-color: #fff;
+	text-align: center;
+}
+.header h1 {
+	line-height: 210px;
+	color: #0077E6;
+	font-size: 32px;
+	font-weight: normal;
+}
+.bd {
+	position: relative;
+	width: 425px;
+	height: 320px;
+	/*background-color: green;*/
+	text-align: center;
+}
+.bd .username {
+	text-align: center;
+	width: 425px;
+	height: 48px;
+	line-height: 48px;
+}
+.bd .username input {
+	width: 345px;
+	height: 35px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #797979;
+}
+.bd .password {
+	text-align: center;
+	width: 425px;
+	height: 48px;
+	line-height: 48px;
+}
+.bd .password input {
+	width: 345px;
+	height: 35px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #797979;
+}
+.login-options {
+	position: relative;
+}
+.login-options .options1{
+	position: absolute;
+	top: 18px;
+	left: 40px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 16px;
+}
+.login-options .options2{
+	position: absolute;
+	top: 15px;
+	right: 40px;
+}
+.login-options .options2 a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #797979;
+}
+.bdButton {
+	margin-top: 50px;
+}
+.Button:hover {
+	cursor: pointer;
+}
+.Button {
+	width: 345px;
+	height: 35px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #0079E6;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	color: #fff;
+}
+.bottom {
+	margin-top: 90px;
+	font-size: 14px;
+}
+.bottom a{
+	font-weight: 700;
+	color: #175199;
+}

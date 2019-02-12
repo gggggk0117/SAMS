@@ -1,0 +1,142 @@
+#menu {
+  overflow: hidden;
+  height: 100%;
+  width: 295px;
+  float: left;
+  user-select: none;
+}
+#menu #ensconce {
+  /*隐藏菜单样式*/
+  width: 0.35rem;
+  height: 100%;
+  background-color: #000;
+  float: left;
+  text-align: center;
+  position: relative;
+  display: none;
+}
+#menu #ensconce h2 {
+  cursor: pointer;
+  color: #000;
+  font-size: 0.24rem;
+  line-height: 0.5rem;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  transform: translate(0%, -50%);
+}
+#menu #ensconce h2 img {
+  width: 52%;
+}
+#menu #open {
+  /*显示菜单样式*/
+  width: 2.6rem;
+  height: 100%;
+  background-color: #fff;
+  padding-bottom: 0.1rem;
+  box-sizing: border-box;
+  box-shadow: 2px 3px 10px #ccc;
+}
+#menu #open .navH {
+  margin-top:10px; 
+  height: 0.6rem;
+  background-color: #fff;
+  line-height: 0.6rem;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #424242;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 5px #ccc;
+}
+#menu #open .navH span {
+  position: absolute;
+  top: 49%;
+  right: 0;
+  padding: 0 0.15rem;
+  cursor: pointer;
+  transform: translate(0, -50%);
+  display: inline-block;
+}
+#menu #open .navH span .obscure {
+  width: 0.24rem;
+}
+#menu #open .navBox {
+  height: 100%;
+  overflow-y: auto;
+  padding-left: 0.05rem;
+  padding-right: 0.07rem;
+  margin-top: 0.1rem;
+}
+#menu #open .navBox ul li {
+  background-color: #A6ACAF;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+#menu #open .navBox ul li .obtain {
+	background-color: #7B7D7D; 
+}
+#menu #open .navBox ul li .obtain:hover {
+	background-color: #424242; 
+}
+#menu #open .navBox ul li h2 {
+  position: relative;
+  width: 100%;
+  /*height: 100%;*/
+  text-align: center;
+  color: #fff;
+  font-size: 0.15rem;
+  padding: 0.15rem 0;
+
+}
+#menu #open .navBox ul li h2 i {
+  position: absolute;
+  top: 50%;
+  right: 0.15rem;
+  border-top: 0.07rem transparent dashed;
+  border-left: 0.07rem solid #fff;
+  border-right: 0.07rem transparent dashed;
+  border-bottom: 0.07rem transparent dashed;
+  display: inline-block;
+
+  transform-origin: 4px 3px;
+
+  transform: translate(0, -50%);
+}
+#menu #open .navBox ul li h2 .arrowRot {
+
+  transform: rotate(90deg);
+}
+#menu #open .navBox ul li .secondary {
+  overflow: hidden;
+  height: 0;
+
+}
+#menu #open .navBox ul li .secondary h3 {
+  padding: 0.1rem 0;
+    text-align: center;
+    font-size: 0.13rem;
+    background-color:  #AAB7B8;
+    color: #ffffff;
+    border-bottom: 0.8px solid #D5D8DC;
+
+}
+#menu #open .navBox ul li .secondary h3:hover {
+  background-color: #515A5A;
+}
+#menu #open .navBox ul li .secondary .seconFocus {
+  /*background-color: #1acbfc;*/
+  /*-webkit-box-shadow: 3px 3px 3px #aa8c51;
+  -moz-box-shadow: 3px 3px 3px #aa8c51;
+  box-shadow: 3px 3px 3px #aa8c51;*/
+}
+.ss{
+}
+.main{
+	width: 100%;
+	height: 800px;
+	float: right;
+	top: 0px;
+	right: 0px;
+
+}

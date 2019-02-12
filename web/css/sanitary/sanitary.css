@@ -1,0 +1,98 @@
+img a{
+	display: block;
+}
+
+.operating{
+	margin-left: 270px;
+	margin-top:8px;
+	width :1240px;
+	height: 753px;
+	/*background-color: red;*/
+	padding: 0px;
+}
+.operation{
+	float: left;
+	margin-top: 60px;
+	width: 840px;
+	height: 450px;
+	box-shadow: 2px 3px 10px #ccc;
+	background-color: #fff;
+}
+.operation div {
+	/*margin-top: 20px;*/
+	width: 100%;
+	height: 100px;
+}
+.operation div span{
+	margin-left: 40px;
+	margin-right: 20px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 1.2em;
+	color: #424949;	
+}
+.operation div .sel_1{
+	margin-left: 70px;
+	width: 200px;
+	height: 30px;
+	font-size: 17px;
+}
+.operation div .sel_2{
+	margin-left: 45px;
+	width: 200px;
+	height: 30px;
+	font-size: 17px;
+}
+
+.operation div .bz{
+	width: 400px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	color: #424949;
+	border-bottom: 1px solid #E5E8E8;
+}
+.operation div .bz:focus{
+	border-bottom: 1px solid #707B7C;
+}
+
+.message{
+	float: right;
+	margin-top: 60px;
+	width: 360px;
+	height: 650px;
+	background-color: #fff;
+	box-shadow: 2px 3px 10px #ccc;
+}
+.button1 {
+	margin-top: 100px;
+	margin-left: 220px;
+	width: 345px;
+	height: 45px;
+	text-align: center;
+	background-color: #0079E6;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	color: #fff;
+}
+.button1:hover{
+	background-color: #fff;
+	color: #424949;
+}
+.message div span{
+	margin-left: 20px;
+	margin-right: 40px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 1.2em;
+	color: #424949;
+}
+.message div input{
+	width: 80px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	color: #424949;
+	/*border-bottom: 1px solid #E5E8E8;*/
+}
