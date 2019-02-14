@@ -40,7 +40,7 @@
       <button type="submit" class="Button">登录</button>
     </div>
     <div class="bottom">
-      <span>没有账号? </span><a href="#"> 注册</a>
+      <span>没有账号? </span><a href="Singleup.jsp"> 注册</a>
     </div>
   </form>
   <!-- 主体结束 -->
